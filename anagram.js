@@ -4,7 +4,7 @@ function annagram()
 {
   const prompt = require("prompt-sync")();
   let str1 = prompt('Enter a input for string1:');
-  //const prompt = require("prompt-sync")();
+  //   const prompt = require("prompt-sync")();
   let str2 = prompt('Enter a input for string2:');
     if (str1.length !== str2.length)
       {

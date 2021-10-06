@@ -14,7 +14,7 @@ function annagram()
   let a = str1.split('').sort().join('');
   /* str1=listen--->split ['l','i','s','t','e','n']
      sort--->[e,i,l,n,s,t,]
-     join--->[elilnst]  */
+     join--->[elilnst]    */
   let b = str2.split('').sort().join('');
   /*str2=silent ---> split ['s','i','l','e','n','t']
     sort--->[e,i,l,n,s,t,]
